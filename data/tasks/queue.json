@@ -1,0 +1,12 @@
+[
+  {
+    "id": "task_001",
+    "type": "generate_post",
+    "agent": "social_agent",
+    "payload": {
+      "topic": "Agent Constellation Architecture",
+      "tone": "professional"
+    },
+    "status": "pending"
+  }
+]

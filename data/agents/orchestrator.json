@@ -1,0 +1,8 @@
+{
+  "name": "orchestrator_agent",
+  "description": "Routes tasks to the correct agent and manages workflow.",
+  "inputs": ["task", "context"],
+  "outputs": ["plan", "result"],
+  "tools": ["jsonStore"],
+  "prompt": "You are the orchestrator. Read the task and decide which agent should handle it."
+}

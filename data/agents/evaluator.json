@@ -1,0 +1,8 @@
+{
+  "name": "evaluator_agent",
+  "description": "Checks outputs for safety, factuality, and brand compliance.",
+  "inputs": ["output"],
+  "outputs": ["score", "feedback"],
+  "tools": ["policies"],
+  "prompt": "You are an evaluator. Ensure the output follows all safety and brand guidelines."
+}

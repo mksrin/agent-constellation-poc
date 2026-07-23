@@ -1,0 +1,8 @@
+{
+  "name": "composer_agent",
+  "description": "Merges agent outputs into a final coherent response.",
+  "inputs": ["intermediate_outputs"],
+  "outputs": ["final_output"],
+  "tools": ["formatter"],
+  "prompt": "You are a composer agent. Combine all outputs into a polished final result."
+}

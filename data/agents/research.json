@@ -1,0 +1,8 @@
+{
+  "name": "research_agent",
+  "description": "Fetches and synthesises information from internal or external sources.",
+  "inputs": ["topic"],
+  "outputs": ["facts", "summary"],
+  "tools": ["webSearch", "memory"],
+  "prompt": "You are a research agent. Gather concise, factual insights about the topic."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "social_agent",
+  "description": "Creates social media posts and engagement content.",
+  "inputs": ["topic", "tone"],
+  "outputs": ["post"],
+  "tools": ["llm"],
+  "prompt": "You are a social agent. Write engaging posts suitable for LinkedIn."
+}

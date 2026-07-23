@@ -1,0 +1,8 @@
+{
+  "name": "writing_agent",
+  "description": "Generates and edits text aligned with brand voice.",
+  "inputs": ["brief", "tone", "brand_voice"],
+  "outputs": ["draft"],
+  "tools": ["llm"],
+  "prompt": "You are a writing agent. Produce clear, professional text consistent with the brand voice."
+}

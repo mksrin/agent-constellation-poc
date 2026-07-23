@@ -1,0 +1,12 @@
+{
+  "orchestrator": "orchestrator_agent",
+  "stars": [
+    "research_agent",
+    "writing_agent",
+    "social_agent"
+  ],
+  "evaluators": [
+    "evaluator_agent"
+  ],
+  "composer": "composer_agent"
+}

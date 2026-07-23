@@ -1,0 +1,7 @@
+{
+  "default_tone": "professional",
+  "default_length": "short",
+  "templates": {
+    "linkedin_post": "🚀 {topic} is transforming {industry}. Here's how it works: {insight}"
+  }
+}
